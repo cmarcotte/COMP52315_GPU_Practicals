@@ -48,4 +48,4 @@ module load cuda/11.5
 clang++ -fsycl -fsycl-targets=nvptx64-cuda my_source_code.cpp -o my_executable
 ```
 
-[^1]: And a glut of students using the cluster ineffectively due to a lack of understanding that "gpu = fast" is not sufficient.
+[^1]: And a glut of students using the cluster ineffectively due to a lack of understanding that "gpu ≠ fast".
