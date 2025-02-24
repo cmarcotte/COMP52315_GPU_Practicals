@@ -30,5 +30,7 @@ Pkease note that these are upper bounds and do not guarantee that the ocde is ex
 
 ## Compilation of SYCL code on NCC
 `module load llvm-clang`
+
 `module load cuda/11.5`
+
 `clang++ -fsycl -fsycl-targets=nvptx64-cuda my_source_code.cpp -o my_executable`
